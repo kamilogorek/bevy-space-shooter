@@ -102,7 +102,7 @@ fn main() {
                 enemy_bounds.after(enemy_movement),
                 enemy_direction.after(enemy_bounds),
                 enemy_hit_player,
-                // enemy_spawn_cycle,
+                enemy_spawn_cycle,
                 bullet_spawn,
                 bullet_movement,
                 bullet_bounds,
